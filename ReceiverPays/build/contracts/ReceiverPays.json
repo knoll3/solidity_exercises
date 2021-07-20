@@ -1,0 +1,189 @@
+{
+  "contractName": "ReceiverPays",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.1+commit.df193b15\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/kyle.noll/playground/Ethereum/exercises/ReceiverPays/contracts/ReceiverPays.sol\":\"ReceiverPays\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/kyle.noll/playground/Ethereum/exercises/ReceiverPays/contracts/ReceiverPays.sol\":{\"keccak256\":\"0xa8b86979445426ea79a4516c6a3d2cc8ae31d06833234be86f15e35220e80b6e\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://16846d9364e00b6587289507fca136a351d419518dcbbf82387f12d6102326cd\",\"dweb:/ipfs/QmRCbuWdFGgN6KNVqwCYEtDW5koqRHhKkd2W18abrtzGML\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220835df6a22ef61f5054f2201b53639d7f63b6cd9ee0c2ddbc03d76342e38f44d364736f6c63430008010033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220835df6a22ef61f5054f2201b53639d7f63b6cd9ee0c2ddbc03d76342e38f44d364736f6c63430008010033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "65:74:1:-:0;;;94:43;;;;;;;;;;65:74;;;;;;",
+  "deployedSourceMap": "65:74:1:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.7.0 <0.9.0;\n\ncontract ReceiverPays {\n\n    constructor() {\n        // do nothing\n    }\n}",
+  "sourcePath": "/home/kyle.noll/playground/Ethereum/exercises/ReceiverPays/contracts/ReceiverPays.sol",
+  "ast": {
+    "absolutePath": "/home/kyle.noll/playground/Ethereum/exercises/ReceiverPays/contracts/ReceiverPays.sol",
+    "exportedSymbols": {
+      "ReceiverPays": [
+        39
+      ]
+    },
+    "id": 40,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.7",
+          ".0",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:31:1"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 39,
+        "linearizedBaseContracts": [
+          39
+        ],
+        "name": "ReceiverPays",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 37,
+              "nodeType": "Block",
+              "src": "108:29:1",
+              "statements": []
+            },
+            "id": 38,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 35,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "105:2:1"
+            },
+            "returnParameters": {
+              "id": 36,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "108:0:1"
+            },
+            "scope": 39,
+            "src": "94:43:1",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 40,
+        "src": "65:74:1"
+      }
+    ],
+    "src": "32:107:1"
+  },
+  "legacyAST": {
+    "absolutePath": "/home/kyle.noll/playground/Ethereum/exercises/ReceiverPays/contracts/ReceiverPays.sol",
+    "exportedSymbols": {
+      "ReceiverPays": [
+        39
+      ]
+    },
+    "id": 40,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.7",
+          ".0",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:31:1"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 39,
+        "linearizedBaseContracts": [
+          39
+        ],
+        "name": "ReceiverPays",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 37,
+              "nodeType": "Block",
+              "src": "108:29:1",
+              "statements": []
+            },
+            "id": 38,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 35,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "105:2:1"
+            },
+            "returnParameters": {
+              "id": 36,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "108:0:1"
+            },
+            "scope": 39,
+            "src": "94:43:1",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 40,
+        "src": "65:74:1"
+      }
+    ],
+    "src": "32:107:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.1+commit.df193b15.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.3.3",
+  "updatedAt": "2021-03-03T04:15:46.393Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
